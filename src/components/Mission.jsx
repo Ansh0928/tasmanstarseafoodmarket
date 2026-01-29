@@ -7,7 +7,7 @@ const Mission = () => {
     const missionText = "to provide the highest quality and widest range of Australian and selected imported seafood products available, coupled with experienced knowledgeable service and value, and the continued dedication and innovation of the way seafood is delivered and experienced by the public.";
 
     return (
-        <section className="relative py-24 md:py-40 bg-color-bg overflow-hidden">
+        <section id="mission" className="relative py-24 md:py-40 bg-color-bg overflow-hidden">
             {/* Decorative Underwater Elements */}
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-20">
                 <div className="absolute top-1/4 -left-20 animate-pulse">

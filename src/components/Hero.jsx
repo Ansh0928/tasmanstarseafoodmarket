@@ -88,12 +88,18 @@ const Hero = () => {
                     The Gold Coast's iconic seafood destination. Fresh wild-caught Aussie treasures delivered from our boat to your table.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                    <button className="w-full sm:w-auto bg-accent text-white px-12 py-5 rounded-full text-xl font-bold hover:scale-105 transition-all shadow-2xl shadow-accent/40">
+                    <a
+                        href="#products"
+                        className="w-full sm:w-auto bg-accent text-white px-12 py-5 rounded-full text-xl font-bold hover:scale-105 transition-all shadow-2xl shadow-accent/40 text-center"
+                    >
                         Order Fresh Today
-                    </button>
-                    <button className="w-full sm:w-auto border border-white/20 backdrop-blur-xl px-12 py-5 rounded-full text-xl font-bold hover:bg-white/10 transition-all">
+                    </a>
+                    <a
+                        href="#mission"
+                        className="w-full sm:w-auto border border-white/20 backdrop-blur-xl px-12 py-5 rounded-full text-xl font-bold hover:bg-white/10 transition-all text-center"
+                    >
                         Our Story
-                    </button>
+                    </a>
                 </div>
             </div>
 
